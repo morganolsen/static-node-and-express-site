@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Return to homepage
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 Error #{error.status}
+
+        p.lead.text-light
+          | #{error.message}
+
+  

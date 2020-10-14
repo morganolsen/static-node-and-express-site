@@ -1,0 +1,90 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A random quote generator",
+            "description": "This project is a simple quote generator that displays a random quote when the page loads, when the button is pressed or after 15 seconds.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://morganolsen.github.io/a-random-quote-generator/",
+            "github_link": "https://github.com/morganolsen/a-random-quote-generator/",
+            "thumbnail_url": "/static/images/quote-generator-main.PNG",
+            "image_urls": [
+                "/static/images/quote-generator-1.PNG",
+                "/static/images/quote-generator-2.PNG"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Data pagination and filtering",
+            "description": "This is a simple app that parses an array of objects and displays them in a nice format as well as adds pagination and a dynamic search field.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://morganolsen.github.io/data-pagination-and-filtering/",
+            "github_link": "https://github.com/morganolsen/data-pagination-and-filtering/",
+            "thumbnail_url": "/static/images/data-pagination-main.PNG",
+            "image_urls": [
+                "/static/images/data-pagination-1.PNG",
+                "/static/images/data-pagination-2.PNG"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive form",
+            "description": "This is an interactive form that validates input dynamically and alters the form as choices are selected.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://morganolsen.github.io/interactive-form/",
+            "github_link": "https://github.com/morganolsen/interactive-form",
+            "thumbnail_url": "/static/images/interactive-form-main.PNG",
+            "image_urls": [
+                "/static/images/interactive-form-1.PNG",
+                "/static/images/interactive-form-2.PNG"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "This is a fun guessing game based on object oriented javascript that presents a random phrase for the player to guess.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://morganolsen.github.io/oop-game-show-app/",
+            "github_link": "https://github.com/morganolsen/oop-game-show-app",
+            "thumbnail_url": "/static/images/oop-game-show-main.PNG",
+            "image_urls": [
+                "/static/images/oop-game-show-1.PNG",
+                "/static/images/oop-game-show-2.PNG",
+                "/static/images/oop-game-show-3.PNG"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "This app fetches 12 random users from the random users API, parses the information and displays it in the view. The results are also searchable.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://morganolsen.github.io/public-api-requests/",
+            "github_link": "https://github.com/morganolsen/public-api-requests",
+            "thumbnail_url": "/static/images/public-api-main.PNG",
+            "image_urls": [
+                "/static/images/public-api-1.PNG",
+                "/static/images/public-api-2.PNG"
+            ]
+        }
+    ]
+}
