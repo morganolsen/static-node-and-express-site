@@ -1,3 +1,8 @@
+/**
+ * Static node.js and Express Site
+ * Author: Morgan Olsen
+ */
+
 const express = require('express');
 const data = require('./data.json');
 
@@ -14,6 +19,8 @@ app.set('view engine', 'pug');
 
 /**
  * Renders the index template when the root path is requested.
+ * Due to how small this project is, I've decided to leave the routes in the app.js file.
+ * For a project larger than this, I'd place the routes in seperate files.
  */
 app.get('', (req, res, next) => {
     res.render("index", data);
